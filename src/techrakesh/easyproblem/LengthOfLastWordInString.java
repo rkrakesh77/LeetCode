@@ -8,6 +8,8 @@ public class LengthOfLastWordInString {
         System.out.println(lengthOfLastWord("This is mY laptop"));
         System.out.println(lengthOfLastWord("mzdjkhu 97218o30921 @"));
     }
+
+    //Better Space Complexity
     public static int lengthOfLastWord(String str) {
         int count=0;
         str=str.trim();
@@ -22,6 +24,9 @@ public class LengthOfLastWordInString {
         }
         return count;
     }
+
+
+    //Can Be Optimized
     public static int lengthOfLastWord1(String s) {
         String words[]=s.split(" ");
         int size=words.length;
