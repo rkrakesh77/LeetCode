@@ -10,7 +10,7 @@ public class LengthOfLastWordInString {
     }
 
     //Better Space Complexity
-    public static int lengthOfLastWord(String str) {
+    public  static int lengthOfLastWord(String str) {
         int count=0;
         str=str.trim();
         if(str.length()==0)
@@ -30,9 +30,8 @@ public class LengthOfLastWordInString {
     public static int lengthOfLastWord1(String s) {
         String words[]=s.split(" ");
         int size=words.length;
-        int output=0;
         if(size==0){
-            return output;
+            return 0;
         }
         return words[size-1].length();
     }

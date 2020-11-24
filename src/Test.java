@@ -3,5 +3,6 @@ public class Test {
         System.out.println((int)('9'-'0'));
         System.out.println((int)'0');
         System.out.println("Hello World");
+
     }
 }
