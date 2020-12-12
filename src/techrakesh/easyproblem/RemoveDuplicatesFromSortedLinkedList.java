@@ -7,14 +7,11 @@ public class RemoveDuplicatesFromSortedLinkedList {
     static class ListNode {
         int val;
         ListNode next;
-
         ListNode() {
         }
-
         ListNode(int val) {
             this.val = val;
         }
-
         ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
@@ -38,7 +35,8 @@ public class RemoveDuplicatesFromSortedLinkedList {
         ListNode second = new ListNode(1);
         ListNode third = new ListNode(2);
         second.next = third;
-        linkedList.head = second;
+        linkedList.head.next = second;
+        linkedList.deleteDuplicates(linkedList.head);
         linkedList.printList();
 
     }
