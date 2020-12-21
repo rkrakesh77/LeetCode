@@ -1,6 +1,6 @@
 package techrakesh.easyproblem;
 
-public class CaesarCipherEncryption {
+public class CaesarCipherEncryptionLeft {
     public static void main(String[] args) {
         String result="";
         String s="abcd";

@@ -2,8 +2,9 @@ package techrakesh.easyproblem;
 
 public class ReverseInteger {
     public static void main(String[] args) {
-        //System.out.println(reverse(-321));
-        System.out.println(Integer.MAX_VALUE);
+        System.out.println(reverse(-321));
+        System.out.println(reverse(120));
+        //System.out.println(Integer.MAX_VALUE);
     }
 
     public static int reverse(int x) {
